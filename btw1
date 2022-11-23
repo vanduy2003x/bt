@@ -1,0 +1,51 @@
+-- CREATE DATABASE NhanVien
+
+-- CREATE TABLE nhanvien (
+-- id INT PRIMARY KEY AUTO_INCREMENT,
+-- NAME CHAR(200),
+-- ngay_bat_dau DATETIME,
+-- so_chiec INT)
+
+-- INSERT INTO nhanvien (NAME,ngay_bat_dau,so_chiec)
+-- VALUES 
+-- ('Hoàng','2007-01-24',250),
+-- ('Nam','2007-05-27',220),
+-- ('Việt','2007-05-06',170),
+-- ('Việt','2007-04-06',100),
+-- ('Hương','2007-04-06',220),
+-- ('Xuân','2007-06-06',300),
+-- ('Xuân','2007-02-06',350)
+
+-- SELECT CONCAT(id,'  ',NAME,'    ',ngay_bat_dau) AS thong_tin
+-- FROM nhanvien
+
+-- CREATE TABLE employee(
+-- id INT PRIMARY KEY AUTO_INCREMENT,
+-- NAME CHAR(200),
+-- salary INT)
+
+-- INSERT INTO employee
+-- VALUES 
+-- (12,'Finch',15000),
+-- (22,'Peter',25000),
+-- (32,'Warner',5600),
+-- (42,'Watson',90000)
+
+--  SELECT CONCAT(id,'  ',NAME,'    ',salary*2) AS thong_tin
+-- FROM employee
+
+-- CREATE TABLE Datediff(
+-- fist CHAR(200),
+-- last CHAR(200),
+-- birthday DATETIME)
+
+-- INSERT INTO datediff
+-- VALUES 
+-- ('Lê Thị','Thu','1996-12-12'),
+-- ('Vũ Thị','Nga','1997-11-17'),
+-- ('Nguyễn Văn','C','2000-12-17'),
+-- ('Phan Van','D','1998-10-11'),
+-- ('Tran Dinh','Trong','1997-04-25'),
+-- ('Bui','Tien Dung','1997-02-28')
+
+-- SELECT datediff('2022-11-23','1996-12-12')
